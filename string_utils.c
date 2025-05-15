@@ -43,7 +43,7 @@ void main(){
     }
     
     printf("\nString Concatenation\n");
-    char d[m+n];
+    char d[m+n+1];
     for(int i=0;i<m+n;i++){
         if(i<n) d[i]=a[i];
         else d[i] = b[i-n];

@@ -4,7 +4,7 @@ void main(){
     char a[200],b[200]; 
     int n=0,m=0,j=0,cmp = 0,count=0,ans;
     printf("String operations without standard library.\n");
-    printf("Enter the string/ word: ");
+    printf("Enter the string  or word: ");
     scanf(" %[^\n]s",a);
     while(a[n]!='\0'){
         n++;
